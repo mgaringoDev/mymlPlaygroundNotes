@@ -18,8 +18,14 @@ nav_order: 2
 ## Regression
 Linear regression models are a good starting point for regression tasks. Such models are popular because they can be fit very quickly, and are very interpretable. You are probably familiar with the simplest form of a linear regression model (i.e., fitting a straight line to data) but such models can be extended to model more complicated data behavior.  For simple linear regression there is, in fact, an optimal solution, however for high dimensional spaces there are none and we need to regard the problem as an optimisation problem. Regression fits a function to the data set, so what we are trying to do is to find a representative function and fit to our data set. Learning takes place as finding the best possible - local optimum - values of the function parameters. Linearity refer to the fact that we are tying to fit either a straight line or a polynomial function (polynomial regression).
 
+This is a **parametric method** which means that there exists a relationship which can be expressed as a **fixed equation form to relate y and X**.  Where y are the output variables or response, and **X** are the input variables also known as covariates, features, independant variables or predictors.  The general form for linear regression is:
+
+$$ y = f(X) + \epsilon$$
+
+Various methods use different $$f(X)$$ and are usually statistical methods.  $$\epsilon$$ are the error terms that independent of $$X$$.  Linear regression then simplifies to identifying the coefficients of $$f(X)$$ by minimizing error based on the given data.
+
 ### Linear Regression
-The model is a straight line in the form $$y=mx+b$$.  We can use **sklearn.linear_model** module to obtain the m and b parameters given list of points [x,y].  The slope and intercept of the data are contained in the model's fit parameters, which in Scikit-Learn are always marked by a trailing underscore. Here the relevant parameters are **coef_** and **intercept_** of the model.
+The model is a straight line in the form $$f(X)=y=mx+b$$.  We can use **sklearn.linear_model** module to obtain the m and b parameters given list of points [x,y].  The slope and intercept of the data are contained in the model's fit parameters, which in Scikit-Learn are always marked by a trailing underscore. Here the relevant parameters are **coef_** and **intercept_** of the model.
 
 #### Polynomial Basis Function 
 One way to adapt linear regression to non-linear relationships between the variables is to transform the data according to some **basis funciton**.  The main idea is to take the multidimension linear model:
