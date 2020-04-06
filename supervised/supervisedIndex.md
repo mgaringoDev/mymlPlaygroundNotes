@@ -11,7 +11,9 @@ The majority of the todo list here will be based on the machine learning matery 
 ## To Do
 - **Regression Algorithms**
 	- [ ] Ordinary Least Squares Regression (OLSR)
-	- [ ] Linear Regression
+	- [x] Linear Regression
+		- [x] Gaussian Basis Function
+		- [x] Polynomial Basis Function
 	- [ ] Logistic Regression
 	- [ ] Stepwise Regression
 	- [ ] Multivariate Adaptive Regression Splines (MARS)
