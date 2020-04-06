@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Linear Regression Implementatinos
+title: Linear Regression Implementations
 nav_order: 3
 ---
 
