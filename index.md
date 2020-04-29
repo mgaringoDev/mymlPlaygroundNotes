@@ -5,6 +5,13 @@ nav_order: 1
 ---
 
 # Currently working on
+Need to look at the followin feature encoding things
+
+- [Kaggle - Advanced feature engineering - feature encoding](https://www.kaggle.com/prashanththangavel/advanced-feature-engineering-feature-encoding)
+- [Medium - Text Encoding](https://towardsdatascience.com/text-encoding-a-review-7c929514cccf)
+- [Medium - Categorical varibale encoding](https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd020)
+- [MIC and MINE](http://www.exploredata.net/Technical-information)
+- [Oredictive power score](https://www.reddit.com/r/MachineLearning/comments/g78bq3/p_the_predictive_power_score_an_alternative_to/)
 
 
 # Resources

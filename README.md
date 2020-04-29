@@ -2,6 +2,9 @@
 
 This is just a learning playground for me on different ML algorithms.
 
+# Lectures
+- [Cornell](http://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/)
+
 
 # Theme Acknowledgement
 
